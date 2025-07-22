@@ -16,10 +16,7 @@ ml-basics/
 ├── data/                       # Sample datasets
 ├── supervised_learning/        # Supervised learning material
 |    |── regression/            # Regression notebooks
-|    |── classification/        # classification notebooks
 ├── unsupervised_learning/      # Unsupervised learning material
-|    |── clustering/            # Clustering notebooks
-|    |── anomaly_detection/     # Anomaly detection notebooks
 ├── reinforcement_learning/     # Unsupervised learning material
 ├── requirements.txt            # Python dependencies
 └── README.md                   # Documentation
@@ -29,7 +26,7 @@ ml-basics/
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/alessialin/ml-basics.git
+    git clone https://github.com/microsoft/ml-fundamentals.git
     cd ml-basics
     ```
 
