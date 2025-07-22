@@ -1,33 +1,41 @@
-# Project
+# Machine Learning Fundamentals
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+Welcome to the **Machine Learning Fundamentals** repository! This repo is designed to help you upskill in fundamental machine learning concepts through curated materials, code examples, and hands-on exercises.
 
-As the maintainer of this project, please make a few updates:
+## Agenda
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+- Introduction to Machine Learning
+- File Structure
+- Setup
 
-## Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit [Contributor License Agreements](https://cla.opensource.microsoft.com).
+## File Structure
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+```
+ml-basics/
+├── data/                       # Sample datasets
+├── supervised_learning/        # Supervised learning material
+|    |── regression/            # Regression notebooks
+|    |── classification/        # classification notebooks
+├── unsupervised_learning/      # Unsupervised learning material
+|    |── clustering/            # Clustering notebooks
+|    |── anomaly_detection/     # Anomaly detection notebooks
+├── reinforcement_learning/     # Unsupervised learning material
+├── requirements.txt            # Python dependencies
+└── README.md                   # Documentation
+```
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+## Setup
 
-## Trademarks
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/alessialin/ml-basics.git
+    cd ml-basics
+    ```
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft
-trademarks or logos is subject to and must follow
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+2. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+You're ready to start exploring machine learning fundamentals!
