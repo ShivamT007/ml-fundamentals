@@ -19,7 +19,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip3 install --user -r /workspaces/ml-fundamentals/supervised_learning/regression/requirements.txt",
+	"postCreateCommand": "pip3 install --user -r ${workspaceFolder}/supervised_learning/regression/requirements.txt",
 
 	// Configure tool-specific properties.
 	"customizations": {"vscode": {
