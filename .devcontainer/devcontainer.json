@@ -10,7 +10,7 @@
 			"installJupyterlab": true,
 			"version": "os-provided"
 		}
-	}
+	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -19,10 +19,15 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "pip3 install --user -r requirements.txt",
+	"postCreateCommand": "pip3 install --user -r /workspaces/ml-fundamentals/supervised_learning/regression/requirements.txt",
 
 	// Configure tool-specific properties.
-	// "customizations": {},
+	"customizations": {"vscode": {
+    // Add the IDs of extensions you want installed when the container is created.
+    "extensions": [
+      "ms-toolsai.jupyter"
+    ]
+  }},
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
