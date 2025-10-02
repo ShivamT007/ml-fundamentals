@@ -8,10 +8,9 @@ Welcome to the **Machine Learning Fundamentals** repository! This repo is design
 - File Structure
 - Setup
 
-
 ## File Structure
 
-```
+```text
 ml-basics/
 ├── data/                       # Sample datasets
 ├── supervised_learning/        # Supervised learning material
@@ -25,12 +24,14 @@ ml-basics/
 ## Setup
 
 1. Clone the repository:
+
     ```bash
     git clone https://github.com/microsoft/ml-fundamentals.git
     cd ml-basics
     ```
 
 2. Install dependencies:
+
     ```bash
     pip install -r requirements.txt
     ```
