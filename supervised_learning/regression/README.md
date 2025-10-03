@@ -62,11 +62,12 @@ The dataset contains 1,000 sales records from a supermarket chain with detailed 
 ```
 regression/
 ├── README.md                      # This file - overview and theory
-├── 01_regression.ipynb           # Introduction to regression concepts and linear regression
-├── 02_feature_engineering.ipynb  # Feature selection, transformation, and engineering
-├── 03_evaluation.ipynb          # Model evaluation metrics and techniques
-├── 04_cross_validation.ipynb    # Cross-validation and model selection
-└── 05_advanced_regression.ipynb # Advanced regression techniques and optimization
+├── exercise.md                    # Excercises to apply regression techniques
+├── 01_regression.ipynb            # Introduction to regression concepts and linear regression
+├── 02_feature_engineering.ipynb   # Feature selection, transformation, and engineering
+├── 03_evaluation.ipynb            # Model evaluation metrics and techniques
+├── 04_cross_validation.ipynb      # Cross-validation and model selection
+└── 05_advanced_regression.ipynb   # Advanced regression techniques and optimization
 ```
 
 **Learning Path:**
