@@ -78,3 +78,6 @@ regression/
 5. **Explore advanced techniques in `05_advanced_regression.ipynb`** - Regularization and ensemble methods
 
 Each notebook builds upon the previous one, providing a comprehensive journey from basic concepts to advanced regression modeling techniques using the supermarket sales dataset.
+
+## Contact
+If you have any questions, please reach out to Alessia Lin (<alessialin@microsoft.com>)
