@@ -19,6 +19,7 @@ For each of these approaches, dedicated notebooks will provide both theoretical 
 ```text
 ml-basics/
 ├── data/                       # Sample datasets
+├── docs/                       # documents to run the repo
 ├── supervised_learning/        # Supervised learning material
 |    |── regression/            # Regression notebooks
 ├── unsupervised_learning/      # Unsupervised learning material
@@ -33,12 +34,8 @@ You have 3 options for environment setup using Notebooks. Please choose the one 
 
 1. [**Github CodeSpaces**](docs/env-setup-codespaces.md) - a purely cloud-based environment.  This should be your go-to option if you do NOT have a linux environment (OSX or WSL2/Windows).
 
-2. [**Run code on a remote VM**](docs/env-setup-remote-vm.md) - run the code from VS Code. Ideal if you need some beefy processing, and have access to a high-performance Azure VM.
+2. [**Run code on a remote VM**](docs/env-setup-vm.md) - run the code from VS Code. Ideal if you need some beefy processing, and have access to a high-performance Azure VM.
 
-3. **Run on your laptop** - if you have plenty of RAM and maybe wish to test the performance of inference & fine-tuning on your local machine.  You have two options:
-
-    a. [With a Dev Container](docs/env-setup-devcontainer.md) OR
-
-    b. [Create your own virtualenv](docs/env-setup-local.md) - if you are comfortable with creating a Python environment on your local machine.
+3. **Run on your laptop** - [Create your own virtualenv](docs/env-setup-local.md) - if you are comfortable with creating a Python environment on your local machine.
 
 You're ready to start exploring machine learning fundamentals!
