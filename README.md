@@ -28,6 +28,7 @@ ml-basics/
 ```
 
 ## Setup
+
 You have 3 options for environment setup using Notebooks. Please choose the one which suits you best.
 
 1. [**Github CodeSpaces**](docs/env-setup-codespaces.md) - a purely cloud-based environment.  This should be your go-to option if you do NOT have a linux environment (OSX or WSL2/Windows).
