@@ -43,14 +43,9 @@ The dataset contains 1,000 sales records from a supermarket chain with detailed 
 - **Gender:** Customer gender
 - **Product line:** Product category (Health & beauty, Electronic accessories, etc.)
 - **Unit price:** Price per item
-- **Quantity:** Number of items purchased
-- **Tax 5%:** Tax amount (5% of subtotal)
 - **Sales:** Total sales amount (target variable)
 - **Date/Time:** Transaction timestamp
 - **Payment:** Payment method (Cash, Credit card, Ewallet)
-- **COGS:** Cost of goods sold
-- **Gross margin percentage:** Profit margin
-- **Gross income:** Gross profit
 - **Rating:** Customer satisfaction rating (1-10)
 
 **Possible Business Questions to Answer:**
