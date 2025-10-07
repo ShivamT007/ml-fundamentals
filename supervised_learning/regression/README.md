@@ -37,7 +37,7 @@ The dataset contains 1,000 sales records from a supermarket chain with detailed 
 **Key Features:**
 
 - **Invoice ID:** Unique transaction identifier
-- **Branch:** Supermarket branch (A, B, or C)
+- **Branch:** Supermarket branch (Alex, Giza, or Cairo)
 - **City:** Branch location (Yangon, Naypyitaw, Mandalay)
 - **Customer type:** Member or Normal customer
 - **Gender:** Customer gender
