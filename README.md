@@ -17,7 +17,7 @@ For each of these approaches, dedicated notebooks will provide both theoretical 
 ## File Structure
 
 ```text
-ml-basics/
+ml-fundamentals/
 ├── data/                       # Sample datasets
 ├── docs/                       # documents to run the repo
 ├── supervised_learning/        # Supervised learning material
