@@ -15,4 +15,5 @@ dependencies = [
     "seaborn==0.13.2",
     "scikit-learn==1.6.1",
     "xgboost==3.0.2",
+    "ipykernel>=6.30.1",
 ]
