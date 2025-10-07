@@ -15,7 +15,9 @@ Pick one that sparks your curiosity and run with it!
 
 ---
 
-## 1. 🏠 House Prices Prediction
+## 📋 Exercise List
+
+### 1. 🏠 House Prices Prediction
 
 - **Dataset**: [House Prices - Advanced Regression Techniques (Kaggle)](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
 - **Scenario**:
@@ -25,7 +27,7 @@ Pick one that sparks your curiosity and run with it!
 
 ---
 
-## 2. 🚲 Bike Sharing Demand
+### 2. 🚲 Bike Sharing Demand
 
 - **Dataset**: [Bike Sharing Dataset (UCI)](https://archive.ics.uci.edu/ml/datasets/bike+sharing+dataset)
 - **Scenario**:
@@ -35,7 +37,7 @@ Pick one that sparks your curiosity and run with it!
 
 ---
 
-## 3. 💰 Student Performance and Study Hours
+### 3. 💰 Student Performance and Study Hours
 
 - **Dataset**: [Student Performance Dataset (Kaggle)](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)
 - **Scenario**:
@@ -45,7 +47,7 @@ Pick one that sparks your curiosity and run with it!
 
 ---
 
-## 4. 🍷 Wine Quality Prediction
+### 4. 🍷 Wine Quality Prediction
 
 - **Dataset**: [Wine Quality Dataset (UCI)](https://archive.ics.uci.edu/ml/datasets/wine+quality)
 - **Scenario**:
@@ -55,7 +57,7 @@ Pick one that sparks your curiosity and run with it!
 
 ---
 
-## 5. ⛽ Energy Efficiency of Buildings
+### 5. ⛽ Energy Efficiency of Buildings
 
 - **Dataset**: [Energy Efficiency Dataset (UCI)](https://archive.ics.uci.edu/ml/datasets/Energy+efficiency)
 - **Scenario**:
@@ -65,7 +67,7 @@ Pick one that sparks your curiosity and run with it!
 
 ---
 
-## 6. 🏥 Medical Insurance Costs
+### 6. 🏥 Medical Insurance Costs
 
 - **Dataset**: [Medical Cost Personal Dataset (Kaggle)](https://www.kaggle.com/datasets/mirichoi0218/insurance)
 - **Scenario**:
@@ -75,7 +77,7 @@ Pick one that sparks your curiosity and run with it!
 
 ---
 
-## 7. 🌱 Crop Yield Prediction
+### 7. 🌱 Crop Yield Prediction
 
 - **Dataset**: [Crop Production Dataset (FAO / Kaggle)](https://www.kaggle.com/datasets/abhinand05/crop-production-in-india)
 - **Scenario**:
@@ -85,7 +87,7 @@ Pick one that sparks your curiosity and run with it!
 
 ---
 
-## 8. 📈 Stock Price Prediction
+### 8. 📈 Stock Price Prediction
 
 - **Dataset**: [Stock Market Dataset (Yahoo Finance / Kaggle example)](https://www.kaggle.com/datasets/borismarjanovic/price-volume-data-for-all-us-stocks-etfs)
 - **Scenario**:
@@ -95,7 +97,7 @@ Pick one that sparks your curiosity and run with it!
 
 ---
 
-# 💡 How to Use These Exercises
+## 💡 How to Use These Exercises
 
 For each dataset:
 
@@ -112,7 +114,7 @@ Feel free to explore alternative targets, reframe the business problem, or ask y
 
 ---
 
-# 📂 Getting the Datasets
+## 📂 Getting the Datasets
 
 For the workshop, datasets are usually provided as **CSV files** so you can load them directly with:
 
@@ -137,7 +139,7 @@ For extra exercises:
 
 ---
 
-# 🔎 Finding Your Own Dataset
+## 🔎 Finding Your Own Dataset
 
 If you want to go beyond this list, here are some good places to look:
 
