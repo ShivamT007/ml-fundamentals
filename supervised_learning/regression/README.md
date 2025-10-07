@@ -76,6 +76,7 @@ regression/
 3. **Master evaluation in `03_evaluation.ipynb`** - Learn to assess model performance
 4. **Understand validation in `04_cross_validation.ipynb`** - Prevent overfitting with proper validation
 5. **Explore advanced techniques in `05_advanced_regression.ipynb`** - Regularization and ensemble methods
+6. **Solve regression problems yourself in `exercise.md` - Contains exercises which you can practice on.
 
 Each notebook builds upon the previous one, providing a comprehensive journey from basic concepts to advanced regression modeling techniques using the supermarket sales dataset.
 
