@@ -39,3 +39,7 @@ You have 3 options for environment setup using Notebooks. Please choose the one 
 3. **Run on your laptop** - [Create your own virtualenv](docs/env-setup-local.md) - if you are comfortable with creating a Python environment on your local machine.
 
 You're ready to start exploring machine learning fundamentals!
+
+## Join the community
+
+Join our [Community](https://teams.microsoft.com/l/channel/19%3Adf843327be594d0693bf1da7ec4f98ce%40thread.tacv2/ML%20Fundamentals%20Upskilling?groupId=d9e8d43c-7268-4e72-b211-fb52570b88d6&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) to connect with fellow learners, ask questions, and share your progress. Whether you're a beginner or an experienced practitioner, our community is here to support you on your machine learning journey!
