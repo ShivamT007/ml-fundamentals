@@ -2,7 +2,11 @@
 name = "ml-fundamentals"
 version = "0.1.0"
 description = ""
-authors = [{ name = "Alessia Lin", email = "alessialin@microsoft.com" }]
+authors = [
+    { name = "Quy Vu", email = "vuquy@microsoft.com" },
+    { name = "Leonidas Dimitrios Tsaprounis", email = "ltsaprounis@microsoft.com" },
+    { name = "Alessia Lin", email = "alessialin@microsoft.com" },
+]
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
