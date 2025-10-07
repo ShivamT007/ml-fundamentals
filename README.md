@@ -22,8 +22,6 @@ ml-basics/
 ├── docs/                       # documents to run the repo
 ├── supervised_learning/        # Supervised learning material
 |    |── regression/            # Regression notebooks
-├── unsupervised_learning/      # Unsupervised learning material
-├── reinforcement_learning/     # Unsupervised learning material
 ├── requirements.txt            # Python dependencies
 └── README.md                   # Documentation
 ```
