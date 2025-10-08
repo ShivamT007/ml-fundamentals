@@ -21,6 +21,9 @@ Use one of the following options to create your virtualenv and install dependenc
 - You can then activate the virtualenv.
   - On Windows - `.venv\Scripts\activate`
   - On macOS/Linux: `source .venv/bin/activate`
+- Register the kernel for Jupyter notebooks:
+  - On Windows: `.venv\Scripts\python.exe -m ipykernel install --user --name=ml-fundamentals --display-name="Python 3.11 (ml-fundamentals)"`
+  - On macOS/Linux: `python -m ipykernel install --user --name=ml-fundamentals --display-name="Python 3.11 (ml-fundamentals)"`
 
 After activation, you should see the virtual environment name in your terminal prompt.
 
@@ -39,6 +42,10 @@ You can either:
 - activate this virtualenv with `poetry shell` OR
 - execute commands using `poetry run ...` instead
 
+After setting up with Poetry, register the kernel for Jupyter notebooks:
+- If using `poetry shell`: `python -m ipykernel install --user --name=ml-fundamentals --display-name="Python 3.11 (ml-fundamentals)"`
+- If not activated: `poetry run python -m ipykernel install --user --name=ml-fundamentals --display-name="Python 3.11 (ml-fundamentals)"`
+
 <br>
 
 ### Option 3 - using the basic venv module
@@ -51,10 +58,15 @@ python -m venv .venv
 source .venv/bin/activate
 
 pip install -r requirements.txt
+
+# Register the kernel for Jupyter notebooks
+python -m ipykernel install --user --name=ml-fundamentals --display-name="Python 3.11 (ml-fundamentals)"
 ```
 
 <br>
 
 ## Use the notebooks
+
+After completing the setup above, the kernel "Python 3.11 (ml-fundamentals)" will be available in VS Code's kernel picker. 
 
 You're now ready to [run the notebooks in VS Code](using-notebooks-in-vs-code.md).
