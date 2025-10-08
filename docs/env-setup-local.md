@@ -25,7 +25,7 @@ Use one of the following options to create your virtualenv and install dependenc
   - On Windows: `.venv\Scripts\python.exe -m ipykernel install --user --name=ml-fundamentals --display-name="Python 3.11 (ml-fundamentals)"`
   - On macOS/Linux: `python -m ipykernel install --user --name=ml-fundamentals --display-name="Python 3.11 (ml-fundamentals)"`
 
-After activation, you should see the virtual environment name in your terminal prompt.
+After activation, you should see the virtual environment name in your terminal prompt. Leave the terminal open—we'll reuse it to patch the VS Code Jupyter extension in a later step.
 
 <br>
 
@@ -68,5 +68,33 @@ python -m ipykernel install --user --name=ml-fundamentals --display-name="Python
 ## Use the notebooks
 
 After completing the setup above, the kernel "Python 3.11 (ml-fundamentals)" will be available in VS Code's kernel picker. 
+
+You're now ready to [run the notebooks in VS Code](using-notebooks-in-vs-code.md).
+
+<br>
+
+## Patch the Jupyter VS Code extension
+
+If the kernel picker in VS Code spins forever, you're likely hitting the same incompatibility that affects Codespaces: the legacy Jupyter extension (2023.8.x) bundled with the editor can't run on VS Code 1.104.x. This repo includes a helper script that downloads the latest extension, widens its engine constraint, and installs it for you.
+
+Run the script after you create and activate your virtual environment (choose the command that matches your shell):
+
+```bash
+# macOS / Linux / Git Bash / WSL
+bash .devcontainer/install-jupyter-extension.sh
+```
+
+```powershell
+# Windows PowerShell (requires Git Bash in PATH)
+bash .devcontainer/install-jupyter-extension.sh
+```
+
+When the script finishes, reload VS Code once (`Developer: Reload Window`). You can verify the installation with:
+
+```bash
+code --list-extensions --show-versions
+```
+
+You should see `ms-toolsai.jupyter@2025.9.2025092201` in the output. If you ever hit the spinning picker again, simply rerun the script—it’s idempotent.
 
 You're now ready to [run the notebooks in VS Code](using-notebooks-in-vs-code.md).
