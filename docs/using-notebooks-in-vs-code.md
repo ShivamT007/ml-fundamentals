@@ -15,7 +15,7 @@ You should see a “Select Kernel” prompt at the top right.  Choose "Python En
 
 ![Select kernel](images/kernel_selection.png)
 
-Go with the recommended virtual env (located within your repo's working directory):
+Go with the recommended virtual env (located within your repo's working directory). In Codespaces this appears as **Python 3.11 (ML-Fundamentals-env)**, created automatically by the devcontainer setup:
 
 ![Venv](images/kernel_recommended.png)
 
@@ -38,6 +38,17 @@ Where '->' indicates the shortcut follows the Esc key.
 
 <br>
 
-## Trouble shooting
+## Troubleshooting
 
-Debugging the extensions in VS Code by running `code —list-extensions` in the terminal.
+- If the kernel picker keeps loading forever, it's usually because the stock Jupyter extension (2023.8.x) bundled with VS Code isn't compatible with the 1.104.x editor build the repo uses. The devcontainer’s post-create script already patches the extension, but if you’re working locally run:
+
+	```bash
+	bash .devcontainer/install-jupyter-extension.sh
+	```
+
+	Then reload VS Code once (`Developer: Reload Window`). You should see `ms-toolsai.jupyter@2025.9.2025092201` when you run `code --list-extensions --show-versions`.
+- To inspect all installed extensions, run:
+
+	```bash
+	code --list-extensions --show-versions
+	```
